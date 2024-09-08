@@ -6,12 +6,15 @@
 		"noEmit": true,
 		"allowJs": true,
 		"checkJs": true,
+		// "esModuleInterop": true,
 
-		/* Preact Config */
+		/* Preact & Shadcdn Config */
+		"baseUrl": ".",
 		"jsx": "react-jsx",
 		"jsxImportSource": "preact",
 		"skipLibCheck": true,
 		"paths": {
+			"@/*": ["./src/*"],
 			"react": ["./node_modules/preact/compat/"],
 			"react-dom": ["./node_modules/preact/compat/"]
 		}
