@@ -4,7 +4,7 @@ import "./index.css";
 
 export function App() {
 	return (
-		<div>
+		<div>		
 			<Home></Home>
 		</div>
 	);
