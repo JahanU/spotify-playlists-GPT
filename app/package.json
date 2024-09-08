@@ -9,10 +9,6 @@
 	"dependencies": {
 		"@fontsource/open-sans": "^5.0.28",
 		"@fontsource/pt-mono": "^5.0.13",
-		"@salt-ds/core": "^1.30.0",
-		"@salt-ds/icons": "^1.12.1",
-		"@salt-ds/theme": "^1.19.0",
-		"preact": "^10.20.0",
 		"preact-iso": "^2.6.3",
 		"preact-render-to-string": "^6.5.5"
 	},
