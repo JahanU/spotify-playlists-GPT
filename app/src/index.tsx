@@ -1,11 +1,11 @@
 import { hydrate, prerender as ssr } from 'preact-iso';
-import Home from './home';
+import { Home } from './home';
+import "./index.css";
 
 export function App() {
 	return (
 		<div>
-				<h2>SpotifyGPT</h2>
-				<Home></Home>
+			<Home></Home>
 		</div>
 	);
 }
