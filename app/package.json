@@ -9,6 +9,7 @@
 	"dependencies": {
 		"@fontsource/open-sans": "^5.0.28",
 		"@fontsource/pt-mono": "^5.0.13",
+		"@google/generative-ai": "^0.21.0",
 		"@radix-ui/react-icons": "^1.3.0",
 		"@radix-ui/react-slot": "^1.1.0",
 		"class-variance-authority": "^0.7.0",
