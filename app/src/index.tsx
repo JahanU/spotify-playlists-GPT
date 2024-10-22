@@ -1,4 +1,5 @@
 import { hydrate, prerender as ssr } from 'preact-iso';
+import Footer from './components/footer';
 import { Home } from './home';
 import "./index.css";
 
@@ -6,6 +7,7 @@ export function App() {
 	return (
 		<div>		
 			<Home></Home>
+			<Footer></Footer>
 		</div>
 	);
 }
